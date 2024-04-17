@@ -1,0 +1,16 @@
+.party-add-button {
+    display: flex;
+    justify-content: end;
+}
+
+.party-add-button>a {
+    padding: 1rem 2rem;
+}
+
+.admin-card-img-top{
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    background-color: white;
+}

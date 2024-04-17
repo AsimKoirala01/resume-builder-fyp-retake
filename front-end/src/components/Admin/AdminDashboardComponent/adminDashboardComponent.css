@@ -1,0 +1,53 @@
+.main-content {
+    margin-left: 240px;
+    padding: 0.5rem 3rem;
+}
+
+.admin-dashboard-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.admin-button {
+    object-fit: cover;
+    border: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+    transition: all 0.2s ease-in-out;
+}
+
+.admin-profile {
+    display: flex;
+    align-items: center;
+}
+
+.admin-profile img {
+    margin-right: 2rem;
+}
+
+.admin-nav-dropdown {
+    padding: 0;
+    margin-left: 8rem !important;
+}
+
+.admin-nav-dropdown>* {
+    color: black;
+    font-size: medium;
+    padding: 1rem 2rem;
+    background-color: rgb(156, 156, 156);
+}
+
+.admin-nav-dropdown>*:hover {
+    background-color: rgb(83, 83, 83);
+    color: white;
+    cursor: pointer;
+}

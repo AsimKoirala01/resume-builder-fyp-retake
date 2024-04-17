@@ -1,0 +1,27 @@
+.left-side{
+    margin: auto;
+}
+
+.signin-textfield{
+    padding: 10px 0;
+    width: 100%;
+}
+
+.same-line-spaceBetween{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.same-line{
+    display: flex;
+}
+
+.button-style{
+    margin: 5px 0;
+    width: 100%; 
+}
+
+.image-style{
+    margin: auto;
+}
